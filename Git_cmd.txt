@@ -1,0 +1,47 @@
+git status 
+  変更点を確認
+
+git add ファイル名
+  変更点を追加
+
+git commit -m "任意のコメント"
+  変更点をコミット
+
+git push origin ブランチ名
+  リモートへ変更を適用
+
+git log
+  変更ログを確認
+
+git branch
+  すべてのブランチを確認
+
+git branch -a
+
+
+git branch ブランチ名
+  新しくブランチを作成
+
+git checkout ブランチ名
+  既存のブランチにチェックアウト
+
+git checkout -b ブランチ名
+  ブランチを作成してチェックアウト
+
+git branch -d ブランチ名
+  既存のブランチを削除
+
+git pull origin ブランチ名
+  リモートと同期
+
+git stash
+  変更の一時取り消し
+
+git stash list
+  git stashで取り消した内容を見る
+
+git stash pop
+  取り消し内容を元に戻す
+
+git checkout ファイル名
+  そのファイルでaddしてない変更点をすべて削除
